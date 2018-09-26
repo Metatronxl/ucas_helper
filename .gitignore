@@ -23,3 +23,4 @@
 /dist/
 /nbdist/
 /.nb-gradle/
+src/main/java/com/example/xulei/ucas_helper/utils/TestAccount.java

@@ -2,6 +2,7 @@ package com.example.xulei.ucas_helper;
 
 
 import com.example.xulei.ucas_helper.service.LoginService;
+import com.example.xulei.ucas_helper.utils.TestAccount;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -39,8 +40,8 @@ public class LoginTest {
 
     @Test
     public void  testLogin(){
-        String userName = "xulei@iie.ac.cn";
-        String pwd  = "woshixulei123";
+        String userName = TestAccount.USERNAME;
+        String pwd  = TestAccount.PWD;
 
         loginService.login(userName,pwd);
 
